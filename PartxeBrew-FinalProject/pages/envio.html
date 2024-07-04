@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="rawman">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../img/mate/Logotip Partxe - blanc.png">
+    <title>Envio-PartxeBrew</title>
+
+</head>
+
+<body class="space-grotesk">
+    <h4 id="env">
+        <li>El envio ya esta DISPONIBLE</li>
+    </h4>
+    <div id="bottons">
+        <div id="logoPartxePeque">
+            <a href="../index.html"><img src="../img/LogoPartx.png" alt="partxeBrewLogo"></a>
+        </div>
+        <div class="btns">
+            <a href="./about.html">
+                <li>Sobre nosotras</li>
+            </a>
+            <a href="./hake.html">
+                <li>Productos</li>
+            </a>
+            <a href="#">
+                <li>Gestionar el envio</li>
+            </a>
+            <a href="./login.html">
+                <li>Registrate</li>
+            </a>
+            <a href="./contact.html">
+                <li>Contacto</li>
+            </a>
+        </div>
+        <div class="xarxes">
+            <a href="./login.html">
+                <li class="fas fa-user"> </li>
+            </a>
+            <a href="./cesta.html" target="_blank">
+                <li style="font-size:15px" class="fa">&#xf07a;</li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <li class="fab fa-facebook-f"> </li>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <li class="fab fa-twitter"> </li>
+                </a>
+                <a href="https://www.instagram.com/tecomatebcn/" target="_blank">
+                    <li class="fab fa-instagram"> </li>
+                </a>
+            </a>
+        </div>
+    </div>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Gestionar el Envío</h1>
+        <hr>
+        <div id="shipping-info">
+            <h2>Información de Envío</h2>
+            <form id="shipping-form">
+                <label for="name">Nombre y Apellidos:</label>
+                <input type="text" id="name" name="name" placeholder="Ej. Alejandro Sanchez" required><br>
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address" placeholder="Ej. C/Autogestio, 13, 1, 2" required><br>
+                <label for="city">Ciudad:</label>
+                <input type="text" id="city" name="city" placeholder="Ej. Barcelona" required><br>
+                <label for="postal-code">Código Postal:</label>
+                <input type="text" id="postal-code" name="postal-code" placeholder="Ej. 01234" pattern="[0-9]{5,10}"
+                    required><br>
+                <label for="comments">Comentarios:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"
+                    placeholder="Deja tus comentarios sobre el envío..."></textarea><br>
+                <button type="submit" id="infoEnvio" style="margin-left:36%">Guardar Información</button>
+            </form>
+            <div id="shippingMessage" style="text-align: center;padding:10px"></div>
+
+        </div>
+        <script src="../app.js"></script>
+    </main>
+    <footer>
+        <div id="footer">
+            <article id="infoFoot">
+                <ul id="iDc">
+                    <h3 class="infoCont">Informacion de contacto:</h3>
+                    <b>Direcion: </b>
+                    <li style="color: white;">08035 C/Autogestio, 13, 1 , 2. Barcelona</li>
+                    <b>Telefono: </b>
+                    <li style="color: white;">+34 632074303</li>
+                    <li><b>eMail: </b><a href="mailto:matebcn@riseup.net"> <br>matebcn@riseup.net</a></li>
+
+                </ul>
+            </article>
+
+            <article id="mapaWeb">
+                <ul id="mapa">
+                    <h3 class="infoCont">Mapa de la web:</h3>
+                    <li><a href="../index.html">Pagina Principal</a></li>
+                    <li><a href="./about.html">Sobre Nosotrxs</a></li>
+                    <li><a href="./hake.html">Productos</a></li>
+                    <li><a href="#">Gestionar Envio</a></li>
+                    <li><a href="./login.html">LogIn</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                    <li>Partxe Brewery. Todos los derechos reservados.
+                        <br><img style="width: 5%;" src="../img/mate/Logotip Partxe - blanc.png" alt="">
+                    </li>
+                </ul>
+
+
+            </article>
+            <article id="pagAmics">
+                <ul id="amics">
+                    <h3 class="infoCont">Pagines amigues:</h3>
+                    <li><a href="https://www.bcn.coop/cooperatives/tecomate/">Coopolis</a> </li>
+                    <li><a
+                            href="https://www.elperiodico.com/es/barcelona/20180520/cooperativa-mate-artesano-teixonera-6826228">El
+                            Periodico</a></li>
+                    <li><a
+                            href="https://www.pladebarris.barcelona/ca/plans-de-barri/sant-genis-dels-agudells-i-la-teixonera/concrecio-del-pla/tecomate-a-la-teixonera">Pla
+                            De Barris</a></li>
+                </ul>
+            </article>
+        </div>
+    </footer>
+</body>
+
+</html>
