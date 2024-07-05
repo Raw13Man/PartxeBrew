@@ -650,6 +650,7 @@ ul {
   padding-left: 15px;
 }
 #footWindow{
+  
   display: flex;
   justify-content: center;
   bottom: 0;
