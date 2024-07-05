@@ -88,6 +88,7 @@ function updateCartDisplay() {
             <div class="totals-item totals-item-total">
                 <label>Total</label>
                 <div class="totals-value" id="cart-total">${total}e</div>
+                <button class="checkout" style="margin-bottom: 50px 0;">Comprar</button>
             </div>
         </div>
     `);
