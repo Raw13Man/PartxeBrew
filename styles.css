@@ -641,7 +641,6 @@ button[type="submit"]:hover {
   background-color: #0000004b;
 }
 
-
 ul {
   list-style: none;
 }
@@ -651,7 +650,7 @@ ul {
   padding-left: 15px;
 }
 #footWindow{
-
+  
   display: flex;
   justify-content: center;
   bottom: 0;
