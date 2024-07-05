@@ -419,7 +419,7 @@ button[type="submit"]:hover {
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
-  gap: 15%;
+  gap: 5%;
   height: auto;
 }
 
@@ -637,14 +637,8 @@ button[type="submit"]:hover {
 #footer {
   display: flex;
   justify-content: center;
-  bottom: 0;
-  position: sticky;
-  box-sizing: border-box;
-  margin: 10px auto;
-  background-color: #000000ac;
-  color: #fdc866cb;
-  border-radius: 10px;
-  width: 99%;
+  border-radius: 5px 5px 0 0;
+  background-color: #0000004b;
 }
 
 ul {
@@ -652,17 +646,26 @@ ul {
 }
 
 #iDc {
-  text-align: left;
+  text-align: center;
   padding-left: 15px;
 }
-
+#footWindow{
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  box-sizing: border-box;
+  margin: 30px 60px 30px 60px ;
+  background-color: #0000008d;
+  color: #fdc866cb;
+  border-radius: 20px;
+  width: 90%;
+}
 #iDc li {
   padding: 5px 0;
 }
 
 #mapaWeb {
   display: flex;
-  justify-content: center;
   margin: auto;
   text-align: center;
 }
@@ -714,8 +717,8 @@ footer a:active {
 }
 
 #pagAmics {
-  width: 18%;
-  text-align: right;
+  width: 30%;
+  text-align: center;
   margin: 0;
   display: flex;
   justify-content: end;
@@ -727,7 +730,7 @@ footer a:active {
 
 #amics {
   padding-left: 0;
-  padding-right: 10px;
+  padding-right: 20%;
 }
 
 #amics li {
@@ -885,7 +888,7 @@ main {
   background: #219150;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
 
   .column-labels,
