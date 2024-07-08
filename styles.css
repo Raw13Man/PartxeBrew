@@ -487,17 +487,12 @@ button[type="submit"]:hover {
 .parrSobre {
   height: auto;
   display: flex;
-  text-align: left;
 }
 .parrText{
   text-align: left;
 }
 #logoHake li {
   list-style: none;
-}
-
-#logoHake hr {
-  width: 25%;
 }
 
 #logoHake hr {
