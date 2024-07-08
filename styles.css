@@ -413,16 +413,19 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-/**************Cerv+Refr****/
+/**************Sobre****/
 #logos {
+  display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
   gap: 5%;
   height: auto;
 }
-
-#logos>div {
+#logos p{
+  text-align: left;
+}
+#logos div {
   flex: 1;
   text-align: center;
   background-color: #fff;
@@ -443,17 +446,7 @@ button[type="submit"]:hover {
   transform: scale(1.025);
   transition: all 0.2s ease-in-out;
 }
-#logoEscac {
-  display: inline;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px #0000001a;
-  border-radius: 20px;
-}
 
-#logoEscac li {
-  list-style: none;
-}
 
 #logoHake {
   box-shadow: 0 0 10px #0000001a;
@@ -462,8 +455,11 @@ button[type="submit"]:hover {
   border-radius: 20px;
   background-color: #fff;
 }
+#logoHake p{
+  text-align: left;
+}
 
-#logoEscac img,
+
 #logoHake img {
   margin: 5% 50px;
   cursor: pointer;
@@ -475,7 +471,7 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-#logoEscac img:hover,
+
 #logoHake img:hover {
   opacity: 0.7;
   transform: scale(1.1);
@@ -491,9 +487,11 @@ button[type="submit"]:hover {
 .parrSobre {
   height: auto;
   display: flex;
-  text-align: center;
+  text-align: left;
 }
-
+.parrText{
+  text-align: left;
+}
 #logoHake li {
   list-style: none;
 }
@@ -502,7 +500,7 @@ button[type="submit"]:hover {
   width: 25%;
 }
 
-#logoEscac hr {
+#logoHake hr {
   width: 25%;
 }
 
@@ -520,6 +518,9 @@ button[type="submit"]:hover {
 #parrBienv:hover{
   transform: scale(1.025);
   transition: all 0.2s ease-in-out;
+}
+.h2sobre{
+  text-align: center;
 }
 
 
@@ -554,7 +555,7 @@ button[type="submit"]:hover {
     max-width: 300px;
   }
 
-  #logoEscac img,
+
   #logoHake img {
     width: 100%;
     height: auto;
@@ -597,11 +598,11 @@ button[type="submit"]:hover {
   .h2sobre a img{
     margin-bottom:50px ;
   }
-  #logoHake, #logoEscac {
+  #logoHake{
       flex: 1 1 100%;
       margin-bottom: 50px;
   }
-  #logoHake img, #logoEscac img{
+  #logoHake img{
     margin: 50px;
   }
 
