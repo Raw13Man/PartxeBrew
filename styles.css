@@ -525,11 +525,9 @@ button[type="submit"]:hover {
 
 
 @media (max-width: 1170px) {
-  main {
-    display: block;
-  }
-
+  
   #logos {
+    display: block;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -547,6 +545,7 @@ button[type="submit"]:hover {
 
 @media (max-width: 768px) {
   #logos {
+    
     flex-direction: column;
     gap: 20px;
   }
