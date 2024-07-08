@@ -423,6 +423,8 @@ button[type="submit"]:hover {
   height: auto;
 }
 #logos p{
+  border-radius: 10px;
+  padding: 10px;
   text-align: left;
 }
 #logos div {
@@ -488,15 +490,13 @@ button[type="submit"]:hover {
   height: auto;
   display: flex;
 }
-.parrText{
-  text-align: left;
-}
+
 #logoHake li {
   list-style: none;
 }
 
 #logoHake hr {
-  width: 25%;
+  width: 15%;
 }
 
 #parrBienv {
@@ -508,7 +508,7 @@ button[type="submit"]:hover {
   margin: auto;
   padding: 20px;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #ffc0cb2d;
 }
 #parrBienv:hover{
   transform: scale(1.025);
@@ -612,9 +612,7 @@ button[type="submit"]:hover {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  #bottons .btns, #bottons .xarxes {
-      gap: 10px;
-  }
+  
 
   footer article {
       flex: 1 1 45%;
@@ -633,7 +631,10 @@ button[type="submit"]:hover {
   border-radius: 5px 5px 0 0;
   background-color: #0000004b;
 }
+#footer article{
+  flex: 1 1 45%;
 
+}
 ul {
   list-style: none;
 }
