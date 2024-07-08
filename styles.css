@@ -415,7 +415,6 @@ button[type="submit"]:hover {
 
 /**************Cerv+Refr****/
 #logos {
-  display: inline-flex;
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
@@ -545,7 +544,6 @@ button[type="submit"]:hover {
 
 @media (max-width: 768px) {
   #logos {
-    
     flex-direction: column;
     gap: 20px;
   }
